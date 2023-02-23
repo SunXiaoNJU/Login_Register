@@ -1,0 +1,20 @@
+h1{
+    font-family: 微软雅黑;
+    font-size: 400%;
+    margin-top: -1%;
+    color: rgb(255, 208, 0);
+}
+.logo{
+    margin-left: 95%;
+    margin-top: -8%;
+}
+#username{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 140%;
+    margin-left: 10%;
+    color: red;
+}
+.img{
+    margin-left: -10%;
+    margin-top: -10%;
+}

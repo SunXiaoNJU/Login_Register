@@ -1,0 +1,216 @@
+body {
+  text-align: center;
+  background-color: whitesmoke;
+  background-image: url(../img/tacoBell.jpg);
+  background-size: 100%;
+}
+h1 {
+  text-align: start;
+  margin-top: -1%;
+  font-family: "Times New Roman", Times, serif;
+  color: rgba(255, 213, 0, 0.846);
+  font-size: 400%;
+  margin-top: -3%;
+}
+p {
+  text-align: start;
+  font-size: 250%;
+  color: rgb(255, 0, 0);
+  font-style: oblique;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: -3%;
+}
+#taco {
+  margin-top: -10%;
+  margin-left: -4%;
+}
+.rightButton {
+  margin-left: 91%;
+  margin-top: 0%;
+}
+#register {
+  font-size: 120%;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(5, 6, 122);
+  background-color: rgb(0, 255, 34);
+  border-radius: 1em;
+}
+#login {
+  font-size: 120%;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  background-color: rgb(255, 0, 0);
+  border-radius: 1em;
+}
+
+.signform {
+  font-family: 微软雅黑;
+  position: fixed;
+  background-color: white;
+  top: 20%;
+  left: 33%;
+  border-radius: 1em;
+  text-align: center;
+  z-index: 999;
+}
+#loginSignform {
+  width: 520px;
+  height: 540px;
+}
+#registerSignform {
+  width: 520px;
+  height: 620px;
+}
+#fixPwd {
+  width: 520px;
+  height: 360px;
+}
+.signclose {
+  cursor: pointer;
+  float: right;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 1em;
+}
+.logo {
+  border-radius: 1em;
+  margin-top: 2%;
+  margin-bottom: -8%;
+  margin-left: 8%;
+}
+#registerloading {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 410px;
+  top: 90px;
+}
+.signinput {
+  text-align: center;
+  border-radius: 0.2em;
+  width: 280px;
+  height: 45px;
+  border: none;
+  background-color: #f2f2f2;
+  font-size: 28px;
+}
+.signinput::-webkit-input-placeholder {
+  font-size: 26px;
+}
+.emaildiv {
+  position: relative;
+  margin-top: 60px;
+}
+.phonediv {
+  position: relative;
+  margin-top: 20px;
+}
+.userdiv {
+  position: relative;
+  margin-top: 20px;
+}
+.pwddiv {
+  position: relative;
+  margin-top: 20px;
+}
+.identificationdiv {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 21%;
+}
+.checkdiv {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 17%;
+}
+.postdiv {
+  position: relative;
+  margin-top: 20px;
+}
+.postdiv button {
+  cursor: pointer;
+  color: white;
+  font-size: 26px;
+  border: none;
+  border-radius: 0.4em;
+  width: 280px;
+  height: 45px;
+  background-color: #4caf50;
+}
+.findPwd {
+  color: #4caf50;
+  margin-right: -80%;
+}
+.lineCnt {
+  width: 450px;
+  margin: 30px;
+  border-top: 1px solid black;
+  position: relative;
+}
+.lineCnt .sepLine {
+  width: 160px;
+  height: 50px;
+  background: white;
+  text-align: center;
+  line-height: 50px;
+  font-size: 15px;
+  font-family: 微软雅黑;
+  color: #666666;
+  position: absolute;
+  top: -10px;
+  left: 160px;
+  right: 160px;
+}
+.QQimg {
+  width: 8%;
+}
+.WeChatimg {
+  width: 10%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+}
+#canvas {
+  float: right;
+  margin-right: 20%;
+  margin-top: 1%;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#tips {
+  text-align: center;
+  float: left;
+  font-size: 12px;
+  width: 400px;
+  height: 25px;
+  margin-left: 30%;
+  margin-top: 1%;
+}
+#tips span {
+  float: left;
+  width: 40px;
+  height: 20px;
+  color: #fff;
+  overflow: hidden;
+  margin-right: 10px;
+  background: #d7d9dd;
+  line-height: 20px;
+  text-align: center;
+}
+#tips .s1 {
+  background: #f45a5a;
+}
+#tips .s2 {
+  background: rgb(255, 166, 0);
+}
+#tips .s3 {
+  background: rgb(250, 250, 2);
+}
+#tips .s4 {
+  background: #14b12f;
+}
